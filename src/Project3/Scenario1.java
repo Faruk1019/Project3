@@ -17,6 +17,8 @@ public class Scenario1 {
 
         driver.get("https://shopdemo.e-junkie.com/");
 
+        driver.manage().window().maximize();
+
         Thread.sleep(1500);
 
         List<WebElement> addToCarButtonList = driver.findElements(By.xpath("//button[@class='view_product']"));

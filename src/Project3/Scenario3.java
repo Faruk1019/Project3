@@ -15,6 +15,8 @@ public class Scenario3 {
 
         WebDriver driver = new ChromeDriver();
 
+        driver.manage().window().maximize();
+
         driver.get("https://shopdemo.e-junkie.com/");
 
         Thread.sleep(1500);
