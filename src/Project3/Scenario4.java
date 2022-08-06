@@ -69,14 +69,5 @@ public class Scenario4 {
 
         driver.quit();
 
-
-
-
-
-
-
-
-
-
     }
 }
